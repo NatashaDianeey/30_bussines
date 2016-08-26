@@ -15,7 +15,7 @@
 	<body>
 		<!--Escribe aqui tu codigo-->
 		<div class="container-fluid">
-			<header><!--HEADER-->
+			<header><!--HEADER--><!--FALTA LINK MODAL A BOTON-->
 				<div class="row"><!--row general de header-->
 					<div class="col-xs-12 bkgr-image"><!--bkgr-img-->
 						<div class="bkground-black"><!--bkgr-black-->
@@ -34,10 +34,10 @@
 			                            </div>
 			                            <div class="collapse navbar-collapse" id="myNavbar">
 			                                <ul class="nav navbar-nav">
-			                                    <li><a href="#trabajo">¿Qué me ofrece?</a></li>
-			                                    <li><a href="#distractores">¿Cómo funciona?</a></li>
-			                                    <li><a href="#recomendaciones">¿Por qué usarlo?</a></li>
-			                                    <li><a href="#contacto">Contactanos</a></li>
+			                                    <li><a href="#quemeofrece">¿Qué me ofrece?</a></li>
+			                                    <li><a href="#comofunciona">¿Cómo funciona?</a></li>
+			                                    <li><a href="#porqueusarlo">¿Por qué usarlo?</a></li>
+			                                    <li><a href="#contactanos">Contactanos</a></li>
 			                                </ul>
 			                            </div>
 			                        </nav>
@@ -60,41 +60,49 @@
 				</div>
 			</header>
 			<section><!--SECTION 1-->
-				<div class="row"><!--encabezado-->
+				<div class="row" id="quemeofrece"><!--encabezado-->
 					<div class="col-xs-12 text-center">
 						<h2>Nuestros Servicios</h2>
 					</div>
 				</div>
-				<div class="row text-center"><!--iconos y parrafos-->
+				<div class="row text-center margin-botom"><!--iconos y parrafos-->
 					<div class="col-xs-4"><!--icono1-->
-						<img src="image/icons/reproductor-de-video.png" alt="Reproductor de video">
-						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
+						<span class="icon-video icon img-circle"></span>
+						<h4 class="margen-image">Pruebalo <br> gratis</h4>
+						<p>Obtén un primer video screencast de un <br>usuario navegando tu página.</p>
 					</div>
-					<div class="col-xs-4"><!--icono2-->
-						<img src="image/icons/reloj (1).png" alt="Reloj">
-						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
+					<div class="col-xs-4"><!--icono2-->	
+						<span class="icon-clock icon img-circle"></span>
+						<h4 class="margen-image">Compra el <br>servicio completo</h4>
+						<p>Si te gustó:compra nuestro servicio <br> completo que incluye 7 videos y feedback</p>
 					</div>
 					<div class="col-xs-4"><!--icono3-->
-						<img src="image/icons/notas.png" alt="Notas">
-						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
+						<span class="icon-document icon img-circle"></span>
+						<h4 class="margen-image">Obtén el resultado <br>en 1 día</h4>
+						<p>Te haremos llegar los videos y el feedback <br> completo el mismo dia</p>
 					</div>
 				</div>
 				<div class="row"><!--link image-->
 					<div class="col-xs-12 text-center">
 						<hr>
-						<img src="image/separador.png" alt="FLECHA">
+						<img id="comofunciona" class="flecha-link" src="image/separador.png" alt="FLECHA">
 					</div>
 				</div>
 			</section>
 			<section><!--SECTION 2 LARGA-->
 				<div class="row"><!--encabezado-->
-					<div class="col-xs-6 text-center">
-						<h3>Ejemplo de <img src="image/logo-2.jpg" alt=""></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptas cum dicta officia ratione, quo nobis officiis. Enim nam molestiae quaerat consequatur, vero, voluptas in natus labore, eveniet, laboriosam animi.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla necessitatibus, enim tempora autem itaque velit consequuntur quo voluptatem, modi voluptate ullam expedita laudantium, obcaecati voluptatibus nostrum error consequatur sint vero!</p>
+					<div class="col-xs-6 text-justify">
+						<div class="row">
+							<div class="col-xs-4 text-center">
+								<h2 class="img-inline">Ejemplo de</h2>
+							</div>
+							<div class="col-xs-8 text-center">	
+								<img class="img3" src="image/logo-2.jpg" alt="Logo">
+							</div>	
+						</div>
+						<p class="padding-left-bottom">En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usua de</p>
+						<p class="padding-left-bottom"><a href="#">mimediamanzana.com</a></p>
+						<p class="padding-left-bottom">El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
 					</div>
 					<div class="col-xs-6 text-center">
 						<iframe src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
@@ -129,7 +137,7 @@
 				<div class="row"><!--link image-->
 					<div class="col-xs-12 text-center">
 						<hr>
-						<img src="image/separador.png" alt="FLECHA">
+						<img id="porqueusarlo" class="flecha-link" src="image/separador.png" alt="FLECHA">
 					</div>
 				</div>
 			</section>
@@ -147,24 +155,30 @@
 					<div class="col-xs-6 text-center">
 						<img class="img2" src="image/banner.jpg" alt="BANNER">
 					</div>
-					<div class="bkgr-blue">
-						<h4>Prueba Gratuita</h4>
-						<p>lorem sit elit</p>
-						<button>Pruebalo Gratis</button>
-					</div>
-				</div>
+					<div class="bkgr-blue marg-top text-center text-white">
+	                	<div class="row">
+	                		<div class="col-xs-6 text-center padding-top">
+	                			<h3>Prueba Gratuita</h3>
+	                			<p>Obten un video gratuito en 5 minutos</p>
+	                		</div>
+	                		<div class="col-xs-6 text-center"><!--boton sin modal-->
+	                			<a href="https://www.google.com" target="_black"><button type="button" class="button-pruebalo btn">Pruebalo Gratis</button></a>
+	                		</div>
+	                	</div>			                   
+	                </div>
+	            </div>
 			</section>
 			<footer><!--FOOTER-->
-				<div class="row bkgr-foot-blue">
-					<div class="col-xs-8">
+				<div class="row bkgr-foot-blue" id="contactanos">
+					<div class="col-xs-6 margin-text-top text-white">
 						<p>Escribenos a:</p>
-						<p><a href="#">ndianeey@gmail.com</a></p>
-						<p>te:55 21 4281</p>
+						<p><a href="#">experienciadeusuario.lab@gmail.com</a></p>
+						<p>tel:989637925</p>
 					</div>
-					<div class="col-xs-4 text-right padding-top"><!--iconos redes sociales-->
-						<span class="icon-facebook "></span>
+					<div class="col-xs-6 text-right text-white padding-top"><!--iconos redes sociales-->
+						<span class="icon-facebook"></span>
 						<span class="icon-twitter"></span>
-						<p>copygrid Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p class="margin-text-rigth">Copyrighrt © 2015.User Testing 360</p>
 					</div>
 				</div>
 			</footer>

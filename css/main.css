@@ -4,18 +4,29 @@
 nav.navbar{
 	background-color: transparent;
 	border: transparent;
-	margin: 4%;
+	margin-top: 4%;
 }
 li a{
 	color: white !important;
 }
 /*HEADER*/
 .margen-image{
-	margin: 5%;
+	margin-top: 20%;
 }
-h2{
+.marg-top{
+	margin-top: 30%;
+}
+.margin-text-top{
+	padding: 3% 0% 1% 3%;
+}
+.margin-text-rigth{
+	padding-right: 5%
+}
+h2, h4{
 	color: #66b3ff;
+	margin: 8% 0%;
 }
+
 .jumbotron{
 	background-color: transparent;
 	color: white;
@@ -38,6 +49,7 @@ h2{
 }
 .bkgr-blue{
 	background-color:rgba(102, 179, 255, 0.7);
+	width: 99%;
 	height: 146px;	
 }
 .text-white{
@@ -54,29 +66,50 @@ h2{
 }
 
 
-
-
-
 /*SECTION 1*/
+
+.icon-clock, 
+.icon-document, 
+.icon-video {
+	color: #66b3ff;
+}
+.icon{
+	font-size:3em;
+	padding: 12%;
+	box-shadow: 3px 3px 9px #999;
+}
+.margin-botom{
+	margin-bottom: 8%;
+}
 iframe{
 	width:560px;
 	height:315px; 
 }
 .img2{
-	width: 70%;
+	width: 90%;
 }
-
+.flecha-link{
+	margin-top: -5%;
+}
 .bkgr-foot-blue{
-	background-color: black;
-	height: 200px;
+	background-color: #17223E;
+	height: 150px;
 }
-
+.img3{
+	width: 100%;
+	padding-top: 0%;
+}
 .padding-top{
 	padding-top: 2%
 }
-
+.padding-left-bottom{
+	padding: 2% 8% 0% 8%;
+}
+.img-inline{
+	display: inline-block;
+}
 .icon-facebook, .icon-twitter{
-	margin: 10% 10%;
+	padding-right: 10%;
 	padding-top: 10%;
 	color: #66b3ff;
 	font-size: 2em;
