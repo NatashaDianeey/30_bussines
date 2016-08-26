@@ -7,61 +7,77 @@
 	  	<link rel="shortcut icon" href="favicon.ico">
 	  	<link rel="stylesheet" href="css/animate.css">
 	  	<link rel="stylesheet" href="css/font-awesome.min.css">
-	  	<link rel="stylesheet" href="css/icomoon.css">
 	  	<link rel="stylesheet" href="css/queries.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">	
+		<link rel="stylesheet" href="css/icomoon.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<!--Escribe aqui tu codigo-->
 		<div class="container-fluid">
 			<header><!--HEADER-->
-				<div class="row bkgr-image"><!--bkgr-img-->
-					<div class="col-xs-4">	
-						<img src="image/user-r.png" alt="USER TESTING 360"/>
+				<div class="row"><!--row general de header-->
+					<div class="col-xs-12 bkgr-image"><!--bkgr-img-->
+						<div class="bkground-black"><!--bkgr-black-->
+							<div class="row">
+								<div class="col-xs-5">	<!--logo-->
+									<img class="margen-image" src="image/user-r.png" alt="USER TESTING 360"/>
+								</div>
+								<div class="col-xs-7">	<!--Navegador transparente-->
+									<nav class="navbar navbar-static-top navbar-default" role="navigation">
+			                            <div class="navbar-header">
+			                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			                                    <span class="icon-bar"></span>
+			                                    <span class="icon-bar"></span>
+			                                    <span class="icon-bar"></span>
+			                                </button>
+			                            </div>
+			                            <div class="collapse navbar-collapse" id="myNavbar">
+			                                <ul class="nav navbar-nav">
+			                                    <li><a href="#trabajo">¿Qué me ofrece?</a></li>
+			                                    <li><a href="#distractores">¿Cómo funciona?</a></li>
+			                                    <li><a href="#recomendaciones">¿Por qué usarlo?</a></li>
+			                                    <li><a href="#contacto">Contactanos</a></li>
+			                                </ul>
+			                            </div>
+			                        </nav>
+			                    </div>
+			                    <h1 class="jumbotron text-center">Obten videos de personas reales <br>utilizando tu sitio web, en 1 Hora</h1>
+			                    <div class="bkgr-blue text-center text-white">
+			                    	<div class="row">
+			                    		<div class="col-xs-6 text-center padding-top">
+			                    			<h3>Prueba Gratuita</h3>
+			                    			<p>Obten un video gratuito en 5 minutos</p>
+			                    		</div>
+			                    		<div class="col-xs-6 text-center">
+			                    			<a href="https://www.google.com" target="_black"><button type="button" class="button-pruebalo btn">Pruebalo Gratis</button></a>
+			                    		</div>
+			                    	</div>			                   
+			                    </div>
+			                </div>
+			            </div>
 					</div>
-					<div class="col-xs-8">	<!--Navegador transparente-->
-						<nav class="navbar navbar-static-top navbar-default" role="navigation">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="#trabajo">¿Qué me ofrece?</a></li>
-                                    <li><a href="#distractores">¿Cómo funciona?</a></li>
-                                    <li><a href="#recomendaciones">¿Por qué usarlo?</a></li>
-                                    <li><a href="#contacto">Contactanos</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-					</div>
-					<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h1>	
-					<!--div con caja de color azul con parrafo y boton-->
 				</div>
 			</header>
 			<section><!--SECTION 1-->
 				<div class="row"><!--encabezado-->
 					<div class="col-xs-12 text-center">
-						<h3>Nuestros Servicios</h3>
+						<h2>Nuestros Servicios</h2>
 					</div>
 				</div>
 				<div class="row text-center"><!--iconos y parrafos-->
 					<div class="col-xs-4"><!--icono1-->
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<img src="image/icons/reproductor-de-video.png" alt="Reproductor de video">
 						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
 					</div>
 					<div class="col-xs-4"><!--icono2-->
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<img src="image/icons/reloj (1).png" alt="Reloj">
 						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
 					</div>
 					<div class="col-xs-4"><!--icono3-->
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<img src="image/icons/notas.png" alt="Notas">
 						<h4>Lorem ipsum dolor sit amet, consectetur.</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non quis porro libero reprehenderit est voluptatibus similique.</p>
 					</div>
@@ -145,9 +161,9 @@
 						<p><a href="#">ndianeey@gmail.com</a></p>
 						<p>te:55 21 4281</p>
 					</div>
-					<div class="col-xs-4"><!--iconos redes sociales-->
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<div class="col-xs-4 text-right padding-top"><!--iconos redes sociales-->
+						<span class="icon-facebook "></span>
+						<span class="icon-twitter"></span>
 						<p>copygrid Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 				</div>
