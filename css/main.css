@@ -1,0 +1,14 @@
+.bkgr-image{
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+nav.navbar{
+	background-color: transparent;
+	border: transparent;
+}
+li a{
+	color: white !important;
+}
