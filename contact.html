@@ -14,57 +14,37 @@
 	</head>
 		<body>
 		<!--Escribe aqui tu codigo-->
-		<div class="container-fluid bkgr-image">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="box-white box-margen">
-						<h2>Modal Example</h2>
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-					</div>
-				</div>
-			</div>	
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="modal fade" id="myModal" role="dialog">
-						<div class="modal-dialog">
-							<!-- Modal content-->
-							<div class="modal-content">
-								<div class="modal-header">
-							  		<button type="button" class="close" data-dismiss="modal">&times;</button>
-							 		 <h4 class="modal-title">Formulario User Testing 360</h4>
-								</div>
-								<div class="modal-body">
-									<form>
-										<div class="form-group">
-											<label class="col-xs-4 control-label"> Nombre:</label>
-											<input class="form-horizontal" id="nombre" placeholder="Escribe tu nombre">
-										</div>
-										<div class="form-group">
-											<label class="col-xs-4 control-label">Email:</label>
-											<input class="form-horizontal" id="email" placeholder="Escribe tu Email">
-										</div>
-										<div class="form-group">
-											<label class="col-xs-4 control-label">Dejame tu URL:</label>
-											<input class="form-horizontal" id="email" placeholder="Escribe tu URL">
-										</div>
-										<div class="form-group">
-											<button type="submit" class="btn btn-default text-white button-blue">Enviar Email</button>
-										</div>
-										<div class="form-group">
-											<input class="form-horizontal" id="email" placeholder="Escribe tu URL">
-										</div>
-										<div class="form-group">
-											<p>Powered by <a href="laboratoria.la">Equipo Laboratoria</a></p>
-											<a href="#"><p>Report abuse</p></a>
-										</div>
-									</form>
-								</div>
+			<div class="container-fluid bkgr-image contact">	
+				<div class="row box-white box-margen">
+					<div class="col-xs-12">
+						<h2>Formulario User Testing 360</h2>
+						<form>
+							<div class="form-group">
+								<label class="col-xs-4 control-label"> Nombre:*</label>
+								<input placeholder="Escribe tu nombre">
 							</div>
-   						 </div>
+							<div class="form-group">
+								<label class="col-xs-4 control-label">Email:*</label>
+								<input placeholder="Escribe tu Email">
+							</div>
+							<div class="form-group">
+								<label class="col-xs-4 control-label">Dejame tu URL:*</label>
+								<textarea name="" placeholder="Escribe tu URL"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-default text-white button-blue">Enviar Email</button>
+							</div>
+							<div class="form-group text-center">
+								<input placeholder="Escribe tu URL">
+							</div>
+							<div class="form-group">
+								<p>Powered by <a href="laboratoria.la">Equipo Laboratoria</a></p>
+								<a class="text-right" href="#"><p>Report abuse</p></a>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
-		</div>
 		<script src="js/jquery.js"></script>
 	    <script src="js/bootstrap.min.js"></script>	
 	</body>

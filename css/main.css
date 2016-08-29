@@ -31,9 +31,8 @@ hr{ border:1px solid #ccc;}
 }
 h2, h4, h5{
 	color: #66b3ff;
-	
 }
-h4{
+h2,h4{
 	margin: 8% 0%;
 }
 .jumbotron{
@@ -58,7 +57,7 @@ h4{
 }
 .bkgr-blue{
 	background-color:rgba(102, 179, 255, 0.7);
-	width: 100%;
+	width: 99%;
 	height: 146px;	
 }
 .text-white{
@@ -154,13 +153,10 @@ iframe{
 	}
 
 /*contact*/
-.bkgr-image{
-	width: 100%;
-	height: 620px;
-}
+
 .box-white{
-	width: 50%;
-	height: 350px;
+	width:50%;
+	height: 450px;
 	background-color: white;
 	border-radius: 25px;
 	margin:10% 25%;
@@ -172,3 +168,8 @@ iframe{
 .box-margen{
 	padding: 2% 2%
 }
+
+.contact{
+	height: 650px
+}
+
